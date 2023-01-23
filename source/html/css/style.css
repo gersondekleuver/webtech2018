@@ -1,0 +1,42 @@
+@import "topnav.css";
+@import "dropnav.css";
+@import "sidebar.css";
+@import "divider.css";
+@import "threadbox.css";
+@import "thread.css";
+@import "post.css";
+@import "create.css";
+
+/* 
+style.css: main css file importing every other relevant css file while setting
+global css properties.
+*/
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    font-family: "Quicksand";
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    text-decoration: none;
+    outline: none;
+}
+
+.dropnav, .accountnav, button[type="submit"], .postupvotebutton, #coinnav {
+    -webkit-user-select: none;
+    -khtml-user-select :none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+img {
+    height: 100%; 
+    width: 100%; 
+    object-fit: contain;
+}

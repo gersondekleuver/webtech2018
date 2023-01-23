@@ -1,0 +1,139 @@
+.post {
+    min-height: 130px;
+}
+
+#reply {
+    display: flex;
+    flex-direction: column;
+}
+
+#postreply {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#replytext {
+    flex: 1;
+    min-height: 100px;
+    background: #303030;
+    resize: none;
+    padding: 5px;
+}
+
+#postreplyoptions {
+    display: flex;
+}
+
+#postreplymarkup {
+    flex: 1;
+    height: 65px;
+    margin: 5px 0 0 0;
+}
+
+.replymarkup {
+    width: 30px;
+    height: 30px;
+}
+
+.postreplybutton {
+    width: 60px;
+    height: 65px;
+    margin: 5px 0 0 5px;
+}
+
+.posterinfo {
+    width: 100px;
+}
+
+.posterpic {
+    width: 100px;
+    height: 100px;
+    margin: 0 0 10px 0;
+}
+
+.postername {
+    text-align: center;
+    padding: 0 5px 0 5px;
+}
+
+.postcontent {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 0 0 10px;
+}
+
+.posttext {
+    display: flex;
+    flex-direction: column;
+    min-height: 90px;
+    margin: 0 0 10px 0;
+    padding: 5px;
+}
+
+.quote {
+    display: flex;
+    background: grey;
+    padding: 5px;
+}
+
+.postdescription {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 20px;
+}
+
+.postdate {
+    text-align: center;
+    flex: 0 0 145px;
+    padding: 0 5px 0 5px;
+}
+
+.postbutton {
+    display: flex;
+    flex: 0 0 23px;
+    padding: 0 5px 0 5px;
+
+    text-align: center;
+}
+.postupvotebutton, .removebutton {
+    flex: 1;
+}
+
+
+.postreply {
+    width: 50px;
+    padding: 0 5px 0 5px;
+}
+
+/* site responsiveness triggers */
+@media screen and (max-width:540px) {
+    .post {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .posterinfo {
+        height: 20px;
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
+    .posterpic {
+        display: none;
+    }
+    
+    .postcontent {
+        display: flex;
+        flex-direction: column;
+
+        flex: 1;
+        margin: 0;
+    }
+
+    .posttext {
+        flex: 1;
+    }
+}

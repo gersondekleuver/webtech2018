@@ -1,0 +1,41 @@
+.threadbox {
+    display: flex;
+    flex-direction: column; 
+}
+.threadmenu {
+    display: flex;
+    height: 64px;
+    line-height: 64px;
+}
+.threadtitle {
+    padding: 0 0 0 1em;
+    overflow: hidden;
+}
+.threadmenubuttons {
+    display: flex;
+
+    flex: 1;
+}
+.threadmenubutton {
+    flex: 0 0 64px;
+    text-align: center;
+}
+.threadcreate {
+    display: flex;
+    flex-direction: row-reverse;
+
+    flex: 0 0 64px;
+    line-height: 68px;  
+}
+#pagecount:hover {
+    user-select: none;
+    background: none !important; 
+} 
+
+/* site responsiveness triggers */
+@media screen and (max-width:630px) {
+    .threadmenubutton,.threadcreate {
+        flex: 0 0 48px;
+        font-size: 10px;
+    }
+}

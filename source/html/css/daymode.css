@@ -1,0 +1,121 @@
+/* MAIN */
+body {
+    background: white;
+}
+.link {
+    color: #496e9e;    
+}
+.threadbox, #top, #bot,#form-create {
+    background: #46494f4d ;
+}
+.threadmenu, .side-header, .topnav, .logo a, .threadmenubutton, .threadbutton, button.threadbuttoncount{
+    background: #46494f;
+    color: white;
+}
+.threadmenubutton:hover, .removebutton:hover, .adminbutton:hover, #coinnav:hover{
+    transition: ease-in-out 330ms; 
+    background: #00000033 !important;
+}
+.box {
+    background:#46494f4d;
+}
+/* THREADS */
+.threadtext, .posttext, textarea, input, #replytext {
+    background: #ffffffaf;
+    color: black;
+}
+
+/* POSTS */
+.postername, .postdate, #postreplyapi,.threadtags, .postreply, .threadinfo {
+    background: #b1b1ac; 
+    color: black;
+}
+
+/* misc */
+.picture-container {
+    background: #424242 ; 
+}
+.picture-box button {
+    background: #424242 ; 
+}
+.threadtags a {
+    color: black;
+}
+.droppage a:hover {
+    background: #00000033 !important;
+}
+.droppage form button[type=submit] {
+    background: #757575;
+}
+.change, .back {
+    background: #757575 !important;
+}
+.droppage form button[type=button], #themetoggle {
+    background: #888;
+}
+#search:hover {
+    background: #00000033;
+}
+.drop-content.dropnav:hover, .drop-content.accountnav:hover {
+    background: #00000033 !important;
+}
+.message {
+    background: #6d6d6d;
+    color: #fc8686;
+}
+.droppage form *:focus {
+    background: #00000007;
+}
+.topnav-button .dropnav {
+    color: #fafafa;
+}
+.topnav-button .dropnav:hover {
+    background-color: #00000033 !important;
+}
+#search {
+    background: transparent;
+    color: #fafafa;
+}
+#search-small {
+    color: black;
+    background: #e9e9e9;
+}
+#search:focus {
+    background: #00000033;
+}
+#search:focus::placeholder {
+    color: transparent;
+}
+#search::placeholder {
+    color: #fafafa;
+}
+.drop-content {
+    color: #fafafa;
+}
+.droppage form *::placeholder {
+    color: #fafafa;
+}
+.droppage form *:hover::placeholder {
+    color: #fafafa;
+}
+.droppage form *:hover {
+    color: #fafafa;
+    background: #00000033 !important;
+}
+.droppage form * {
+    background: #888;
+    color: #fafafa; 
+}
+.droppage {
+    background: #888;
+}
+.split .accountnav:hover {
+    color: #888 !important;
+}
+.droppage form input:focus::placeholder {
+    color: transparent;
+}
+.picture-box button:hover {
+    background: #00000033 !important;
+    transition: ease-in-out 330ms; 
+}

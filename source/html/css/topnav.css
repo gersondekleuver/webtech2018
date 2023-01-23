@@ -1,0 +1,89 @@
+.topnav {
+    height: 80px; 
+    line-height: 80px;
+
+    display: flex;
+}
+
+.logo {
+    width: 180px;
+    flex: none;
+
+    text-align: center;
+}
+ 
+.logo a {
+    font-size: 27px;
+    text-decoration: none; 
+}
+
+.topnav-button {
+    flex: 1 1 90px;
+
+    display: inline-flex;
+    justify-content: flex-end;    
+}
+
+#search {
+    max-width: 540px;
+
+    flex: 0 0 180px;
+    height: 1;
+
+    font-family: "Quicksand";
+    font-size: 16px;
+    text-align: center;
+
+    background: transparent;
+    transition: ease-in-out 500ms;
+}
+
+#search:hover {
+    transition: ease-in-out 330ms;    
+}
+
+#search::placeholder {
+    font-size: 16px;
+    transition: ease-in-out 200ms;
+}
+
+#search:focus {
+    flex: auto;
+    outline: 0;
+    transition: ease-in-out 500ms;
+}
+
+#search:focus::placeholder {
+
+    transition: ease-in-out 200ms;
+}
+
+.topnav-button .dropnav {
+    flex: 0 0 180px; 
+
+    text-align: center;
+    text-decoration: none;
+
+    transition: 330ms;   
+}
+
+.topnav-button .dropnav:hover {
+    transition: ease-in-out 330ms;    
+}
+
+#menu {
+    max-width: 90px;
+    font-size: 22px;
+}
+/* site responsiveness triggers */
+@media screen and (max-width: 630px){
+    #account {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 540px){
+    #search {
+        display: none;
+    }
+}

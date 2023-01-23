@@ -1,0 +1,98 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 360px;
+}
+
+#top, #bot {
+    display: flex;
+    flex-direction: column;
+    min-height: 335px;
+}
+
+#top {
+    margin: 0 0 14px 0;
+}
+
+#bot {    
+    margin: 0;
+}
+
+.side-header {
+    display: flex;
+    flex-direction: row-reverse;
+
+    padding: 0 0 0 15px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.cointitle{
+    flex: 1;
+}
+
+#coinnav {
+    flex: 0 0 60px;
+    text-align: center;
+}
+.coinbox {
+    display: flex;
+
+    flex: 1;
+    margin: 10px 10px 0 10px;
+    padding: 5px 5px 5px 5px;
+    background: darkgrey;
+    border-radius: 1px;
+}
+
+.cointext {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 5px 0 5px 0;
+    font-size: 16px;
+}
+
+.cointype {
+    display: flex;
+}
+
+.coinlogo {
+    flex: 0 0 20px;
+}
+
+.coinname {
+    flex: 1;
+    padding-left: 5px;
+    line-height: 24px;
+    overflow: hidden;
+    height: 24px;
+}
+
+.coindata {
+    display: flex;
+    flex-direction: column;
+}
+
+.gain {
+    display: flex;
+    width: 130px;
+    flex: 0 0 20px;
+}
+
+.absolute {
+    flex: 0 0 80px;
+}
+
+.percentage {
+    flex: 0 0 50px;
+    font-size: 12px;
+    color: grey;
+}
+
+.marketcap {
+    width: 100px;
+    flex: 0 0 15px;
+    color: white;
+    font-size: 12px;
+}

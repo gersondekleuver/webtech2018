@@ -1,0 +1,70 @@
+.divider {
+    display: flex;
+    width: 92%; 
+    max-width: 1800px;  
+    margin: 50px 4% 50px 4%;
+
+    position: absolute;
+}
+
+.main-content {
+    flex: 1 1 75%;
+    margin: 0 25px 0 0;
+
+    min-height: 400px;
+}
+
+.box {
+    display: flex;
+    flex: 1;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+
+    /* */
+    min-height: 90px;
+}
+
+/* site responsiveness triggers */
+@media screen and (max-width: 1080px) {
+    .divider {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        flex-direction: row;
+        flex: 0 0 335px;
+        margin: 25px 0 0 0;
+    }
+    
+    .main-content {
+        margin: 0;
+    }
+
+    #top {
+        flex: 1;
+        margin: 0 12px 50px 0;
+    }
+
+    #bot {
+        flex: 1;
+        margin: 0 0 50px 13px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .divider {
+        position: relative;
+    }
+    
+    .sidebar {
+        flex-direction: column;
+    }
+    
+    #top {
+        margin: 0 0 12px 0;
+    }
+    
+    #bot {
+        margin: 13px 0 50px 0;
+    }    
+}
